@@ -1,39 +1,160 @@
-.cp {
-    margin-left: 80px ;
-    margin-right: 80px ;
-    border: 2px solid black;
-    padding: 20px;
-    align-content: center;
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
 }
-
-.ca {
-    margin-left: 5px ;
-    margin-right: 5px ;
-    border: 2px solid black;
-    padding: 5px;
-    align-content: center;
+.general{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+.contenedor {
+    margin: auto;
+    padding: 0px;
+    margin: 1em;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.arte {
+    display: flex;
+    justify-content: left;
+}
+.may {
+    width: 3em;
+    height: 3em;
+    border: .5em;
+    border-radius: 50%;
+}
+nav ul {
+    padding: 0px;
+    margin: .5em;
 }
 nav li {
     margin: 1em;
     display: inline-block;
+    margin:.5em ;
+    border: 2px green ;
+    padding: .5em;
 }
-.menu {
+.boton1 {
+    margin: 0px;
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: 50%;
+
+}
+.boton2 {
+    margin: 0px;
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.verde {
+    background-color:darkgreen ;
+    width: 95%;
+    height: 300px;
+    justify-content: center;
+
+}
+.rojo {
     display: flex;
-    box-sizing: border-box;
+    width: 95%;
+    height: 300px;
+    justify-content: center;
 
 }
 
-div{
-    border: 2px solid red;
+.rojo img{
+    width: 100%;
 }
 
-.aleb {
-    width: 900px;
-    height: 600px;
+.img-rojo{
+    width: 50%;
+    border: 2px solid black;
 }
-.may {
+
+.encabezado {
+    font-size: 2em;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.txt1 {
+    width: 50%;
+
+    background-color:crimson ;
+
+}
+.txt2 {
+    width: 50%;
+
+    background-color: crimson;
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    margin: .5em;
+    padding: px;
+}
+.has {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pedido {
+    margin: 5px;
+    border: 2px solid white ;
+    padding: 1em;
+    width: 20%;
+    height: 10%;
+    border-radius: 15px;
+
+}
+.esp {
+    width: 5%;
+    height: auto;
+    background-color: crimson;
+}
+
+.footer {
+    display: flex;
+    border-top: 1px solid darkgray;
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+.redes {
     width: 50px;
     height: 50px;
-    border: 5px;
-    border-radius: 50%;
+}
+footer div p {
+color: black;
+text-align: start;
+padding: 2em;
+
+}
+
+header{
+    width: 100%;
+    height: 10%;
+}
+main{
+    width: 100%;
+    height: 70%;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
 }
