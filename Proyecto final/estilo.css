@@ -1,13 +1,13 @@
-body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    margin: 0%;
-    border: 0%;
-    padding: 0%;
-}
 .general{
     margin: auto;
     width: 80%;
-    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border: 0%;
+    padding: 0%;
+}
+header {
+    margin: auto;
+
 }
 .contenedor {
     margin: auto;
@@ -20,6 +20,7 @@ body{
     justify-content: space-around;
     width: 100%;
     height: 100%;
+    align-items: center;
 }
 .arte {
     display: flex;
@@ -46,14 +47,16 @@ nav li {
     margin: 0px;
     border: 1px solid black;
     padding: .5em;
-    border-radius: 50%;
+    border-radius: 15px;
 
 }
 .boton2 {
     margin: 0px;
     border: 1px solid black;
-    padding: .5em;
-    border-radius: 50%;
+    text-align: center;
+    width: 5em;
+    padding: .5em ;
+    border-radius: 15px;
     background-color: black;
     color: white;
 }
@@ -62,14 +65,12 @@ nav li {
     width: 95%;
     height: 300px;
     justify-content: center;
-
 }
 .rojo {
     display: flex;
     width: 95%;
     height: 300px;
     justify-content: center;
-
 }
 
 .rojo img{
@@ -78,11 +79,13 @@ nav li {
 
 .img-rojo{
     width: 50%;
-    border: 2px solid black;
 }
 
 .encabezado {
     font-size: 2em;
+    margin: 0px;
+    padding: .3em;
+
 }
 img {
     width: 100%;
@@ -90,22 +93,23 @@ img {
 }
 .txt1 {
     width: 50%;
-
     background-color:crimson ;
-
+    align-items: center;
 }
 .txt2 {
     width: 50%;
-
     background-color: crimson;
-
+    align-items: center;
 }
-p{
+h2 {
+    color: white;
+    text-align: center;
+    padding: .3em;
+}
+p {
     color: white;
     text-align: center;
     font-size: 1em;
-    margin: .5em;
-    padding: px;
 }
 .has {
     display: flex;
@@ -114,11 +118,13 @@ p{
 }
 .pedido {
     margin: 5px;
-    border: 2px solid white ;
-    padding: 1em;
-    width: 20%;
+    border: 1px solid white ;
+    padding: .5em;
+    width: 7em;
     height: 10%;
     border-radius: 15px;
+    color: white;
+    text-align: center;
 
 }
 .esp {
@@ -145,16 +151,17 @@ padding: 2em;
 
 }
 
-header{
-    width: 100%;
-    height: 10%;
-}
 main{
     width: 100%;
     height: 70%;
+    margin: auto;
 }
 
 footer{
     width: 100%;
     height: 20%;
+}
+
+.enlace {
+    color: white;
 }
